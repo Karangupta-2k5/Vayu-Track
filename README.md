@@ -1,6 +1,3 @@
-# Vayu-Track
-End-to-end Indian Air Quality &amp; Weather analytics platform using PostgreSQL, Python, and PowerBI
-
 # Vayu Track 🌬️📊
 
 **Vayu Track** is an end-to-end environmental data analytics project built with **PostgreSQL**, **Python**, and **BI/Visualization tools**. It analyzes daily air quality (AQI/PM2.5) and weather patterns across 50 Indian cities to uncover seasonal pollution trends, regional disparities, and the impact of meteorological factors like wind speed and rainfall on air quality.
