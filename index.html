@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vayu Track | Indian Air Quality & Weather Analytics</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <h1>Vayu Track</h1>
+      <p>PostgreSQL Environmental Analytics Across 50 Indian Cities</p>
+    </div>
+    <div class="controls">
+      <label for="citySelect">Scope:</label>
+      <select id="citySelect">
+        <option value="ALL">All India (50 Cities)</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- KPI Cards -->
+    <section class="kpi-grid">
+      <div class="card kpi">
+        <span class="kpi-label">Average India AQI</span>
+        <strong id="kpiAqi" class="kpi-value">--</strong>
+        <span id="kpiAqiBadge" class="badge">Loading...</span>
+      </div>
+      <div class="card kpi">
+        <span class="kpi-label">Average PM2.5</span>
+        <strong id="kpiPm25" class="kpi-value">--</strong>
+        <span class="kpi-sub">µg/m³ daily mean</span>
+      </div>
+      <div class="card kpi">
+        <span class="kpi-label">Clean Air Days</span>
+        <strong id="kpiClean" class="kpi-value">--</strong>
+        <span class="kpi-sub">Good + Satisfactory</span>
+      </div>
+      <div class="card kpi">
+        <span class="kpi-label">Analyzed Records</span>
+        <strong id="kpiRecords" class="kpi-value">--</strong>
+        <span class="kpi-sub">City-day observations</span>
+      </div>
+    </section>
+
+    <!-- Map & Rankings Row -->
+    <section class="grid-2">
+      <div class="card">
+        <div class="card-header">
+          <h2>Geospatial AQI Distribution</h2>
+          <span class="hint">Click any city marker to filter</span>
+        </div>
+        <div id="indiaMap"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2 id="rankingTitle">Top 10 Most Polluted Cities</h2>
+          <button id="toggleRankBtn" class="btn">Show Cleanest 10</button>
+        </div>
+        <div class="chart-box">
+          <canvas id="rankingChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seasonality & Category Row -->
+    <section class="grid-2">
+      <div class="card">
+        <div class="card-header">
+          <h2 id="trendTitle">Monthly PM2.5 vs. Wind Speed (All India)</h2>
+        </div>
+        <div class="chart-box">
+          <canvas id="trendChart"></canvas>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h2 id="categoryTitle">CPCB Air Quality Category Share</h2>
+        </div>
+        <div class="chart-box">
+          <canvas id="categoryChart"></canvas>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
