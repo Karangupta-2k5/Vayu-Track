@@ -1,0 +1,4 @@
+rain_on_day,day_pairs,median_pct_change_vs_prev_day,mean_pct_change_vs_prev_day,pct_days_pm25_fell
+1. Dry day,37336,1.2,11.0,47.6
+2. Light/moderate rain (<=10 mm),30341,1.7,6.4,47.3
+3. Heavy rain (>10 mm),9673,-5.5,-2.5,57.8

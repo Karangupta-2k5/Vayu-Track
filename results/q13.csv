@@ -1,0 +1,16 @@
+date,city,region,pm2_5_mean,pm10_mean,india_aqi_pm,india_aqi_pm_category,wind_kmh,rain_mm
+2023-03-13,Mumbai,West,279.78,403.34,423.00,Severe,16.10,0.00
+2025-01-10,Ludhiana,North,270.00,272.70,415.00,Severe,6.10,0.00
+2024-11-14,Amritsar,North,260.76,278.70,408.00,Severe,6.50,0.00
+2025-01-10,Delhi,North,256.73,259.05,405.00,Severe,6.40,0.00
+2026-01-16,Amritsar,North,256.46,259.57,405.00,Severe,6.30,0.00
+2026-01-15,Amritsar,North,251.20,252.66,401.00,Severe,4.50,0.00
+2023-01-22,Kolkata,East,245.83,352.46,397.00,Very Poor,7.70,0.00
+2025-01-24,Kolkata,East,242.11,246.51,394.00,Very Poor,6.60,0.00
+2022-12-03,Delhi,North,238.08,344.65,391.00,Very Poor,7.60,0.00
+2026-01-13,Amritsar,North,237.87,240.04,391.00,Very Poor,5.50,0.00
+2026-01-17,Amritsar,North,234.07,238.07,388.00,Very Poor,5.40,0.00
+2026-01-14,Amritsar,North,231.89,232.61,386.00,Very Poor,6.20,0.00
+2024-12-22,Amritsar,North,230.99,233.38,385.00,Very Poor,10.40,0.00
+2023-01-20,Patna,East,230.98,332.98,385.00,Very Poor,8.90,0.00
+2025-12-14,Delhi,North,230.85,234.49,385.00,Very Poor,4.50,0.00

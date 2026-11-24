@@ -1,0 +1,6 @@
+rain_band,city_days,avg_pm25,median_pm25
+1. Dry (0 mm),37338,46.3,37.9
+2. Light (0-2.5 mm),18725,29.4,24.5
+3. Moderate (2.5-10 mm),11641,23.5,19.4
+4. Heavy (10-30 mm),7715,20.7,17.4
+5. Very heavy (>30 mm),1981,16.4,14.0

@@ -1,0 +1,5 @@
+wind_band,city_days,avg_pm25,pct_days_above_60
+1. Calm (<10 km/h),16773,47.6,28.0
+2. Light (10-20),49084,34.7,12.2
+3. Breezy (20-30),10882,21.6,2.7
+4. Windy (30+),661,16.1,1.5

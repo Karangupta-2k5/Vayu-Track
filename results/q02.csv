@@ -1,0 +1,3 @@
+table_name,actual_rows,expected_rows,null_key_metrics,rule_violations
+air_quality_daily,77400,77400,0,0
+weather_daily,124750,124750,0,0

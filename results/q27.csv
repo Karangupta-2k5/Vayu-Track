@@ -1,0 +1,11 @@
+city,mean_pm25,std_dev,coeff_of_variation,max_pm25,pollution_quartile_1_worst
+Kolkata,57.6,43.1,0.75,245.83,1
+Mumbai,40.1,28.9,0.72,279.78,2
+Shillong,19.9,14.2,0.71,75.59,4
+Gangtok,19.8,13.9,0.70,87.78,4
+Pune,27.5,18.8,0.68,93.63,3
+Nashik,24.4,16.5,0.68,100.18,3
+Agartala,41.7,28.4,0.68,177.82,1
+Bhubaneswar,41.1,27.7,0.67,154.27,2
+Mysuru,18.5,12.3,0.67,61.59,4
+Srinagar,39.4,25.5,0.65,195.32,2

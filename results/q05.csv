@@ -1,0 +1,7 @@
+category,days_overall_aqi,pct_overall_aqi,days_pm_only_aqi,pct_pm_only_aqi
+Good,2008,2.6,39735,51.3
+Satisfactory,18295,23.6,24645,31.8
+Moderate,45791,59.2,8437,10.9
+Poor,8463,10.9,2636,3.4
+Very Poor,2516,3.3,1620,2.1
+Severe,327,0.4,327,0.4

@@ -1,0 +1,4 @@
+table_name,row_count,first_date,last_date,distinct_cities
+cities,50,,,50
+air_quality_daily,77400,2022-08-05,2026-10-30,50
+weather_daily,124750,2020-01-01,2026-10-30,50
